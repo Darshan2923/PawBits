@@ -13,6 +13,82 @@
     height: 100vh;
 }
 
-.main-content {
-    position: relative;
+.main_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.main_text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 50px;
+}
+
+.main_image {
+    max-width: 550px;
+    height: auto;
+    margin-bottom: 70px;
+}
+
+.main_text_header {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.main_text_subheader {
+    font-size: 40px;
+    font-weight: 700;
+    color: orangered;
+}
+
+.main_text_para {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+.campaign_button {
+    background-color: orangered;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    max-width: 300px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.campaign_button:hover {
+    background-color: rgb(233, 65, 5);
+}
+
+.scroll-up {
+    position: fixed;
+    font-size: 2.5rem;
+    color: white;
+    background-color: orangered;
+    width: 5rem;
+    height: 5rem;
+    bottom: 5rem;
+    right: 5rem;
+    z-index: 20;
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.show-scroll {
+    display: flex;
 }

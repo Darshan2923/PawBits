@@ -46,7 +46,7 @@ const Navbar = () => {
                 <div className="navbar">
                     <div className="navbar__img">
                         <a href='/' onClick={() => window.scrollhref(0, 0)}>
-                            <img src={Main_Logo} alt="Logo" style={{ width: "150px", height: "150px" }} />
+                            <img src={Main_Logo} alt="Logo" style={{ width: "150px", height: "100px", marginTop: "10px" }} />
                         </a>
                     </div>
                     <ul className="navbar__links">
