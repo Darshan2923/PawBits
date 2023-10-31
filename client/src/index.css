@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+
+/* global */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 19px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 5px;
+}
