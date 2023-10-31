@@ -42,7 +42,7 @@ const Hero = () => {
                     <div className="main_container">
                         <div className="main_content">
                             <div className="main_text">
-                                <div className="main_text_header">Help Save Jefferey</div>
+                                <div className="main_text_header">Help Save <span> Jefferey</span></div>
                                 <div className="main_text_subheader">Join Hands And Be A Guardian </div>
                                 <div className="main_text_para">Find your furry partner according to your preferences and help us create better for them. </div>
                                 <div className="campaign_button">
