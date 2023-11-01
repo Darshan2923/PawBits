@@ -1,7 +1,74 @@
 .footer {
-    padding: 10rem 20px;
+    padding: 5rem 20px 2rem 20px;
     background-color: #1d1d1d;
     color: white;
 }
 
-.footer_container {}
+.footer_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brand_logo_f {
+    max-width: 300px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.fmain_content {
+    border-top: 1px solid grey;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f_nav {
+    margin-top: 40px;
+    background-color: rgb(49, 49, 49);
+}
+
+.f_navbar {
+    display: flex;
+    height: 7rem;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.f_navbar li {
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.f_navbar li:hover {
+    opacity: 1;
+}
+
+.f_copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.f_text {
+    font-size: 15px;
+}
+
+.f_text span {
+    cursor: pointer;
+}
+
+.f_text span:hover {
+    color: orangered;
+}
+
+.f_brands {
+    font-size: 15px;
+    display: flex;
+    gap: 1rem;
+}
+
+.f_brands i {
+
+    cursor: pointer;
+}

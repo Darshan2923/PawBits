@@ -10,8 +10,8 @@ const Footer = () => {
         <>
             <section className="footer">
                 <div className="footer_container">
+                    <div className="brand_logo_f"><img src={Footer_logo} alt="logo" /></div>
                     <div className="footer_content">
-                        <div className="brand_logo_f"><img src={Footer_logo} alt="logo" /></div>
                         <div className="fmain_content">
                             <div className="add_footer">
                                 <img src={Ficon1} alt="footer-icon" />
