@@ -21,6 +21,7 @@
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .about_home_text {
@@ -43,5 +44,4 @@
 .about_home_content {
     font-size: 15px;
     font-weight: 400;
-
 }

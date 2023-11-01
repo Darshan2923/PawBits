@@ -1,0 +1,20 @@
+.howwework {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10rem 20px;
+}
+
+.howwework_container {}
+
+.howwework_header {
+    font-size: 25px;
+    color: orangered;
+    font-weight: 600;
+    text-align: center;
+}
+
+.howwework_subheader {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
