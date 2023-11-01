@@ -1,4 +1,6 @@
 import React from 'react'
+import '../styles/AboutHome.css'
+import Dennis from '../assets/abouthome_img.jpg'
 
 const AboutHome = () => {
     return (
@@ -7,8 +9,8 @@ const AboutHome = () => {
                 <div className="about_home_container">
                     <div className="about_home_content">
                         <div className="about_home_img">
-                            <img src="" alt="" />
-                            <p>Meet Jefferey</p>
+                            <img src={Dennis} alt="dennis-dog" />
+                            <p>Meet Denise</p>
                         </div>
                         <div className="about_home_text">
                             <div className="about_home_header">
@@ -18,7 +20,7 @@ const AboutHome = () => {
                                 He Needs A Companion & Your Support
                             </div>
                             <div className="about_home_content">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis blanditiis consequuntur natus, consectetur in dicta placeat temporibus rem unde, maxime amet dolorum itaque minima ullam molestiae sapiente, beatae quidem tempora mollitia. Totam reprehenderit modi optio.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, provident. Ex error ducimus at quo veritatis aperiam natus, sint quam debitis voluptatem cumque suscipit perspiciatis. Impedit, dolorem. Numquam et exercitationem quo at quam enim. Voluptatem beatae dolorem fuga, laudantium nesciunt eius exercitationem iusto similique vitae? Officia ad distinctio tenetur. Nesciunt qui magni recusandae incidunt. Deserunt vitae perferendis ea mollitia expedita.
                             </div>
                         </div>
                     </div>

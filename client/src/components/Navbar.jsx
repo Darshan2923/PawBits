@@ -68,10 +68,15 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            {" "}
-                            <a className="register-link" href="#register">
-                                Register
-                            </a>
+                            <div className="dropdown">
+                                <button className="dropbtn">Register
+                                    <i className="fa-solid fa-angle-down"></i>
+                                </button>
+                                <div className="dropdown-content">
+                                    <a href="#Register">Register</a>
+                                    <a href="#Login">Login</a>
+                                </div>
+                            </div>
                         </li>
                         <li>
                             {" "}
