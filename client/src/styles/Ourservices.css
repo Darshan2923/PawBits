@@ -1,0 +1,29 @@
+.ourservices {
+    background-image: url(/src/assets/ourservices_bg.png);
+    padding: 10rem 20px;
+}
+
+.service_content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service_header {
+    font-size: 25px;
+    color: orangered;
+    font-weight: 600;
+    text-align: center;
+}
+
+.service_subheader {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.service_img {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
