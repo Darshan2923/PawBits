@@ -80,10 +80,10 @@
     position: fixed;
     font-size: 2.5rem;
     color: white;
-    background-color: orangered;
+    background-color: grey;
     width: 5rem;
     height: 5rem;
-    bottom: 5rem;
+    bottom: -1rem;
     right: 5rem;
     z-index: 20;
     display: none;
@@ -93,6 +93,12 @@
     padding: 1rem;
     cursor: pointer;
     border-radius: 10px;
+}
+
+.scroll-up:hover {
+    background-color: orangered;
+    height: 6rem;
+    transition: 0.2s ease;
 }
 
 .show-scroll {

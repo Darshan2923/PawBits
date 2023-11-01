@@ -17,7 +17,7 @@ const Hero = () => {
 
     useEffect(() => {
         const onPageScroll = () => {
-            if (window.scrollY > 600) {
+            if (window.scrollY > 400) {
                 setGoUp(true);
             } else {
                 setGoUp(false);
