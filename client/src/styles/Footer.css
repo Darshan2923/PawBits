@@ -92,3 +92,27 @@
     font-size: 16px;
     margin-top: 10px;
 }
+
+@media(max-width:700px) {
+    .fmain_content {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .f_copyright {
+        flex-direction: column;
+    }
+
+    .f_navbar {
+        justify-content: space-between;
+    }
+
+    .f_brands {
+        margin-top: 15px;
+    }
+
+    .add_footer {
+        margin-bottom: 20px;
+    }
+
+}
