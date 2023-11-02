@@ -19,7 +19,7 @@ const Navbar = () => {
                     </div>
                     <ul className='mobile-navbar__links'>
                         <li>
-                            <a onClick={openNav} href='#home'>
+                            <a onClick={openNav} href='/home'>
                                 Home
                             </a>
                         </li>
@@ -34,7 +34,7 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <a onClick={openNav} href='#contact'>
+                            <a onClick={openNav} href='/contact'>
                                 Contact
                             </a>
                         </li>
@@ -80,13 +80,13 @@ const Navbar = () => {
                         </li>
                         <li>
                             {" "}
-                            <a className="contact-link" href="#projects">
+                            <a className="contact-link" href="/contact">
                                 Contact
                             </a>
                         </li>
                         <li>
                             {" "}
-                            <a className="adopt-link" href="#about">
+                            <a className="adopt-link" href="#adopt">
                                 <div className="adopt_button">
                                     Adopt Now
                                 </div>
