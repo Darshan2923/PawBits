@@ -20,7 +20,7 @@ const Contact = () => {
         try {
             await axios.post("http://localhost:5002/contacts", contactData);
             alert("Contact info sent successfully");
-
+            window.location.reload();
         } catch (error) {
             console.log(error);
         }
