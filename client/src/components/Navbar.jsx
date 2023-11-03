@@ -29,8 +29,13 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li>
+                            <a onClick={openNav} href='/services'>
+                                Services
+                            </a>
+                        </li>
+                        <li>
                             <a onClick={openNav} href='#projects'>
-                                Projects
+                                Star Contributors
                             </a>
                         </li>
                         <li>
@@ -77,6 +82,12 @@ const Navbar = () => {
                                     <a href="#Login">Login</a>
                                 </div>
                             </div>
+                        </li>
+                        <li>
+                            {" "}
+                            <a className="service-link" href="/services">
+                                Services
+                            </a>
                         </li>
                         <li>
                             {" "}

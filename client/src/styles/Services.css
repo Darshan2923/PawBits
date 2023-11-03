@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.services-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    font-family: Poppins;
+}
+
+.services-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.services_card_i {
+    border: 1px solid rgb(228, 228, 228);
+    max-width: 20rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem 17px 2rem 17px;
+    position: relative;
+}
+
+.services_card_i:hover {
+    border: 1px solid orangered;
+    cursor: pointer;
+}
+
+.services_card_i h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.services_card_i img {
+    max-width: 70px;
+    position: absolute;
+    margin-bottom: 15rem;
+}
+
+.services_card_i p {
+    font-size: 14px;
+}
+
+@media(max-width:1050px) {
+    .services-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:750px) {
+    .services-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.touch {
+    margin-top: 10rem;
+    font-family: Poppins;
+    max-width: 1200px;
+}
+
+.touch_header {
+    font-size: 1.5rem;
+    color: orangered;
+}
+
+.touch_subheader {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.service_img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_img img {
+    max-width: 20rem;
+}
+
+.service_img button {
+    position: absolute;
+    margin-left: 7rem;
+    margin-bottom: 7rem;
+    background-color: orangered;
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.service_img button a {
+    color: white;
+
+}
