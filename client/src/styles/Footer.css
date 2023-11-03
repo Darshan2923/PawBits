@@ -21,6 +21,7 @@
     padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    padding: 0 auto;
 }
 
 .f_nav {
@@ -30,10 +31,13 @@
 
 .f_navbar {
     display: flex;
-    height: 7rem;
-    justify-content: center;
+    height: auto;
+    justify-content: space-between;
     align-items: center;
-    gap: 10rem;
+    max-width: 750px;
+    padding: 3rem 20px;
+    margin: 0 auto;
+    gap: 20px;
 }
 
 .f_navbar li {
@@ -86,6 +90,9 @@
 .add_footer {
     display: flex;
     flex-direction: column;
+    max-width: 20rem;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .fmain_content p {
@@ -115,4 +122,10 @@
         margin-bottom: 20px;
     }
 
+}
+
+@media(max-width:550px) {
+    .f_navbar {
+        flex-direction: column;
+    }
 }

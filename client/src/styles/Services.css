@@ -4,24 +4,30 @@
     max-width: 1350px;
     margin: 0 auto;
     font-family: Poppins;
+    padding-top: 10rem;
 }
 
 .services-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3rem;
+    grid-gap: 2rem;
+}
+
+.services-content {
+    margin: 0 10px;
 }
 
 .services_card_i {
     border: 1px solid rgb(228, 228, 228);
-    max-width: 20rem;
+    max-width: 40rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3.5rem 17px 2rem 17px;
+    padding: 7rem 50px 3rem 50px;
     position: relative;
+    margin: 0 auto;
 }
 
 .services_card_i:hover {
@@ -30,19 +36,19 @@
 }
 
 .services_card_i h1 {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .services_card_i img {
     max-width: 70px;
     position: absolute;
-    margin-bottom: 15rem;
+    margin-bottom: 25rem;
 }
 
 .services_card_i p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 @media(max-width:1050px) {
@@ -55,23 +61,31 @@
     .services-cards {
         grid-template-columns: 1fr;
     }
+
+    .services_card_i p {
+
+        margin: 0 auto;
+    }
 }
 
 
 .touch {
-    margin-top: 10rem;
+    padding-top: 10rem;
     font-family: Poppins;
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .touch_header {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: orangered;
+    text-align: center;
 }
 
 .touch_subheader {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .service_img {
@@ -79,22 +93,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem 30px;
+    margin: 0 auto;
 }
 
 .service_img img {
-    max-width: 20rem;
+    max-width: 35rem;
 }
 
 .service_img button {
     position: absolute;
-    margin-left: 7rem;
-    margin-bottom: 7rem;
+    margin-left: 15rem;
+    margin-bottom: 15rem;
     background-color: orangered;
     border-radius: 50px;
-    padding: 10px 30px;
+    padding: 12px 20px;
+    max-width: 20rem;
 }
 
 .service_img button a {
     color: white;
+    font-size: 2rem;
+}
 
+
+.service_img button:hover {
+    background-color: rgb(233, 65, 5);
 }

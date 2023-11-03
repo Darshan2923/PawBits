@@ -9,7 +9,7 @@ const Ourservices = () => {
                 <div className="service_content">
                     <div className="service_header">Our Services</div>
                     <div className="service_subheader">Find A Suitable Pet For Yourselves</div>
-                    <div className="service_img">
+                    <div className="service_img2">
                         <img src={service} alt="main_service_img" />
                     </div>
                 </div>

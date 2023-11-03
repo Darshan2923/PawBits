@@ -5,16 +5,18 @@ import Icon3 from '../assets/service_page/icon-3-1.png'
 import Icon4 from '../assets/service_page/icon-4-1-1.png'
 import Icon5 from '../assets/service_page/icon-5.png'
 import Icon6 from '../assets/service_page/icon-6.png'
-import '../styles/Services.css'
 import Sit_Dog from '../assets/service_page/services_dog.jpg'
+import '../styles/Services.css'
+import PageHeader from '../components/PageHeader';
+import Footer from '../components/Footer';
 
 const Service = () => {
     return (
         <>
-
+            <PageHeader title="Services" para="Dog Training & Breeding Professionals" />
             <section className='services'>
                 <div className="services-container">
-                    <div className="services content">
+                    <div className="services-content">
                         <div className="services-cards">
                             <div className="services_card_i">
                                 <img src={Icon1} alt="service-icon" />
@@ -64,6 +66,7 @@ const Service = () => {
                 </div>
             </section>
 
+            <Footer />
         </>
     );
 }
