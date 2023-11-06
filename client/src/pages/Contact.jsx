@@ -15,6 +15,7 @@ const Contact = () => {
         const { name, value } = e.target;
         setContactData(prevState => ({ ...prevState, [name]: value }))
     }
+
     const onSubmit = async (e) => {
         e.preventDefault();
         try {
