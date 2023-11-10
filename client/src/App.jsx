@@ -5,9 +5,9 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Service from './pages/Service';
+import PetBreedQuestionnaire from './components/PetBreedQuestions';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -16,6 +16,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/services' element={<Service />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/lifestyle' element={<PetBreedQuestionnaire />} />
       </Routes>
     </>
   )

@@ -1,0 +1,90 @@
+#questionnaire {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 5rem 20px 5rem auto;
+}
+
+.questionnaire {
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pet-header {
+    font-size: 25px;
+    text-align: center;
+    color: #007BFF;
+}
+
+.petForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.petLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.petChoice,
+.petInput[type="text"],
+.petInput[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.recommend {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Style for the select dropdown arrow */
+.petChoice {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23007BFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z" /></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+}
+
+/* Additional styles for improved aesthetics */
+#questionnaire {
+    transition: transform 0.3s ease-in-out;
+}
+
+#questionnaire:hover {
+    transform: scale(1.02);
+}
+
+.recommend:hover {
+    background-color: #0056b3;
+}
+
+.petForm {
+    margin-top: 20px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    .petForm {
+        grid-template-columns: 1fr;
+    }
+}
